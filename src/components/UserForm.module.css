@@ -1,0 +1,5 @@
+
+.formInput[disabled] {
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.88);
+}

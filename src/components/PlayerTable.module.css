@@ -1,0 +1,109 @@
+.table {
+  color: rgb(63, 61, 82);
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.tableHeader {
+  background-color: #d39a02;
+  font-weight: 600;
+  font-size: 17px !important;
+  line-height: 21px;
+}
+
+.tableRowOdd, .tableRowEven {
+  font-size: 14px !important;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.tableRowOdd {
+  background-color: #fdbd14;
+}
+
+.tableRowEven {
+  background-color: #fdcc4a;
+}
+
+.right, .right input {
+  text-align: right;
+}
+
+.tableHeaderCell {
+  padding: 12px 36px;
+}
+
+.tableHeaderCellMid {
+  padding: 12px 25px;
+}
+
+.tableCellFirst {
+  padding: 12px 12px 12px 25px;
+}
+
+.tableCellLabel {
+  font-weight: 600;
+}
+
+.tableCellLabelInner {
+  background-color: #d39a02;
+  padding: 4px 12px 4px 25px;
+  display: inline-block;
+}
+
+.tableCellSpace {
+  height: 24px;
+}
+
+.tableCell {
+  padding: 12px 12px 12px 12px;
+}
+
+.tableCellLast {
+  padding: 12px 25px 12px 12px;
+}
+
+.inputWithPrefix input {
+  background: transparent;
+}
+
+.inputWithPrefix input[disabled], .input input[disabled] {
+  color: rgba(0, 0, 0, 0.88);
+}
+
+.inputWithPrefix span {
+  color: rgba(0, 0, 0, 0.88);
+}
+
+.rowButton {
+  padding: 12px 0px;
+}
+
+.colButton {
+  text-align: center;
+}
+
+.rowButton button {
+  background-color: #d39a02;
+  color: rgba(0, 0, 0, 0.88);
+}
+
+.rowButton button:hover {
+  background-color: #b58402 !important;
+  color: rgba(0, 0, 0, 0.88)  !important;
+}
+
+.cellTotal {
+  align-self: center;
+  padding-right: 24px;
+  font-weight: 600;
+  text-align: right;
+  font-size: 17px;
+  align-self: stretch;
+  line-height: 56px;
+}
+
+@media screen and (max-width: 575px) {
+  .tableCellFirst, .tableCellLast {
+    padding: 12px;
+  }
+}
