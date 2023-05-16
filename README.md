@@ -20,7 +20,7 @@ To run the development server, clone the repository and run the following comman
 
 ```bash
 npm install
-num run dev
+npm run dev
 ```
 
 ## Data retrieval
